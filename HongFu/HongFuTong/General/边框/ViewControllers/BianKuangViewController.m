@@ -34,7 +34,7 @@
 
 - (void)setLeftMenu{
     UIBarButtonItem * leftItem=[[UIBarButtonItem alloc]initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:@selector(leftClick)];
-    //此处不要用appnv ，
+    //此处不要用appnv ，会被覆盖
     self.navigationItem.leftBarButtonItem=leftItem;
     
 }
