@@ -15,8 +15,9 @@
 #define APPDELEGATE      [[UIApplication sharedApplication] delegate]
 #pragma mark --得到base navigationcontroller
 #define APPNV    [UtilsHelper getAppNavigationController]
-
-
+#define APPVC  [UtilsHelper getAppViewController]
+#define APPOrignalNavigationBarHiden     [UtilsHelper setAppNavigationBarHiden];
+#define APPOrignalNavigationBarShow    [UtilsHelper setAppNavigationBarShow];
 
 
 #endif /* AppMacro_h */

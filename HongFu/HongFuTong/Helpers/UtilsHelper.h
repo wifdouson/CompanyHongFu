@@ -23,6 +23,7 @@
 + (void)setAppNavigationBarShow;
 #pragma mark --得到最初导航条
 + (UINavigationController *)getAppNavigationController;
-
+#pragma mark --得到最初vc
++ (UIViewController *)getAppViewController;
 
 @end

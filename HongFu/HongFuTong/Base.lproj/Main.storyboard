@@ -21,10 +21,10 @@
             </objects>
             <point key="canvasLocation" x="-1254" y="-421.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Bian Kuang View Controller-->
         <scene sceneID="AnG-wz-XWN">
             <objects>
-                <viewController storyboardIdentifier="leftID" id="YlS-xx-1jL" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="leftID" id="YlS-xx-1jL" customClass="BianKuangViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D8h-Bb-L5Z"/>
                         <viewControllerLayoutGuide type="bottom" id="48a-wR-lWh"/>
@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jqt-3p-nJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-273" y="273"/>
+            <point key="canvasLocation" x="-478" y="499"/>
         </scene>
         <!--Main Tab Bar Controller-->
         <scene sceneID="DbW-eP-L0Z">

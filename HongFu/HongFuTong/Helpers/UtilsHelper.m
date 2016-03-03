@@ -25,5 +25,11 @@
     AppDelegate * delegate=APPDELEGATE;
     return delegate.baseNV;
 }
+#pragma mark --得到最初vc
++ (UIViewController *)getAppViewController{
+    AppDelegate * delegate=APPDELEGATE;
+    UINavigationController * nv=delegate.baseNV;
+    return nv.topViewController;
+}
 
 @end

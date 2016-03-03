@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B4AD5AB7561B48C0C9911D000BF13372DCD48AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B4AD5AB7561B48C0C9911D000BF13372DCD48AF" : 0,
+    "C532D49088EEC6DDD5F1BCE491790FC235E5D92D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A80F7E6C-461B-4C8A-8FA7-396DB3D30101",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B4AD5AB7561B48C0C9911D000BF13372DCD48AF" : "HongFu\/",
+    "C532D49088EEC6DDD5F1BCE491790FC235E5D92D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HongFuTong",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HongFuTong.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chenhanqingdev\/HongFuTong.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B4AD5AB7561B48C0C9911D000BF13372DCD48AF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chenhanqingdev\/CompanyHongFu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C532D49088EEC6DDD5F1BCE491790FC235E5D92D"
+    }
+  ]
+}
