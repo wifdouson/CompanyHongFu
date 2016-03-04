@@ -40,6 +40,11 @@
 		183EB7591C83F9BA0053ED64 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB7531C83F9BA0053ED64 /* MMDrawerController.m */; };
 		183EB75A1C83F9BA0053ED64 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB7551C83F9BA0053ED64 /* MMDrawerVisualState.m */; };
 		183EB75B1C83F9BA0053ED64 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB7571C83F9BA0053ED64 /* UIViewController+MMDrawerController.m */; };
+		184FCAC81C89283100878A34 /* OriginalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCAC71C89283100878A34 /* OriginalViewController.m */; };
+		184FCACC1C892AB500878A34 /* MobileData.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCACB1C892AB500878A34 /* MobileData.m */; };
+		184FCACF1C89304C00878A34 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCACE1C89304C00878A34 /* DataController.m */; };
+		184FCAD31C89324200878A34 /* MobileData+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCAD21C89324200878A34 /* MobileData+Original.m */; };
+		184FCAD61C89325900878A34 /* DataController+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCAD51C89325900878A34 /* DataController+Original.m */; };
 		18F00FCE1C86B8C800FDCA3A /* +@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA11C86B8C800FDCA3A /* +@2x.png */; };
 		18F00FCF1C86B8C800FDCA3A /* +选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA21C86B8C800FDCA3A /* +选中@2x.png */; };
 		18F00FD01C86B8C800FDCA3A /* .@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA31C86B8C800FDCA3A /* .@2x.png */; };
@@ -188,6 +193,17 @@
 		183EB7551C83F9BA0053ED64 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
 		183EB7561C83F9BA0053ED64 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
 		183EB7571C83F9BA0053ED64 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		184FCAC61C89283100878A34 /* OriginalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginalViewController.h; sourceTree = "<group>"; };
+		184FCAC71C89283100878A34 /* OriginalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginalViewController.m; sourceTree = "<group>"; };
+		184FCACA1C892AB500878A34 /* MobileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileData.h; sourceTree = "<group>"; };
+		184FCACB1C892AB500878A34 /* MobileData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileData.m; sourceTree = "<group>"; };
+		184FCACD1C89304C00878A34 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		184FCACE1C89304C00878A34 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		184FCAD11C89324200878A34 /* MobileData+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MobileData+Original.h"; sourceTree = "<group>"; };
+		184FCAD21C89324200878A34 /* MobileData+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MobileData+Original.m"; sourceTree = "<group>"; };
+		184FCAD41C89325900878A34 /* DataController+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DataController+Original.h"; sourceTree = "<group>"; };
+		184FCAD51C89325900878A34 /* DataController+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DataController+Original.m"; sourceTree = "<group>"; };
+		184FCAD71C89357A00878A34 /* FMDBMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBMacro.h; sourceTree = "<group>"; };
 		18E3D5841C83F04900B883F6 /* HongFuTong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HongFuTong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F00FA11C86B8C800FDCA3A /* +@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+@2x.png"; sourceTree = "<group>"; };
 		18F00FA21C86B8C800FDCA3A /* +选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+选中@2x.png"; sourceTree = "<group>"; };
@@ -399,6 +415,8 @@
 		183EB7021C83F2CA0053ED64 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				184FCAC91C892AAF00878A34 /* 数据库 */,
+				184FCAC21C89281B00878A34 /* 启动页 */,
 				18F011D61C88198500FDCA3A /* 边框 */,
 				18F011DA1C88198500FDCA3A /* 主界面 */,
 				18F0106A1C86DCB100FDCA3A /* 收款 */,
@@ -413,6 +431,7 @@
 				183EB7181C83F4C90053ED64 /* NotificationMacro.h */,
 				183EB7191C83F4D90053ED64 /* VendorMacro.h */,
 				183EB71A1C83F5060053ED64 /* UtilsMacro.h */,
+				184FCAD71C89357A00878A34 /* FMDBMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -490,6 +509,62 @@
 				183EB7571C83F9BA0053ED64 /* UIViewController+MMDrawerController.m */,
 			);
 			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		184FCAC21C89281B00878A34 /* 启动页 */ = {
+			isa = PBXGroup;
+			children = (
+				184FCAD01C8931D400878A34 /* Datas */,
+				184FCAC31C89281B00878A34 /* Models */,
+				184FCAC41C89281B00878A34 /* ViewControllers */,
+				184FCAC51C89281B00878A34 /* Views */,
+			);
+			path = "启动页";
+			sourceTree = "<group>";
+		};
+		184FCAC31C89281B00878A34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		184FCAC41C89281B00878A34 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				184FCAC61C89283100878A34 /* OriginalViewController.h */,
+				184FCAC71C89283100878A34 /* OriginalViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		184FCAC51C89281B00878A34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		184FCAC91C892AAF00878A34 /* 数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				184FCACA1C892AB500878A34 /* MobileData.h */,
+				184FCACB1C892AB500878A34 /* MobileData.m */,
+				184FCACD1C89304C00878A34 /* DataController.h */,
+				184FCACE1C89304C00878A34 /* DataController.m */,
+			);
+			path = "数据库";
+			sourceTree = "<group>";
+		};
+		184FCAD01C8931D400878A34 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				184FCAD11C89324200878A34 /* MobileData+Original.h */,
+				184FCAD21C89324200878A34 /* MobileData+Original.m */,
+				184FCAD41C89325900878A34 /* DataController+Original.h */,
+				184FCAD51C89325900878A34 /* DataController+Original.m */,
+			);
+			path = Datas;
 			sourceTree = "<group>";
 		};
 		18E3D57B1C83F04900B883F6 = {
@@ -958,13 +1033,18 @@
 			files = (
 				18F011E31C8819C500FDCA3A /* MainTableViewController.m in Sources */,
 				183EB75A1C83F9BA0053ED64 /* MMDrawerVisualState.m in Sources */,
+				184FCAD61C89325900878A34 /* DataController+Original.m in Sources */,
 				18F010701C86DCD100FDCA3A /* ReceiveMoneyViewController.m in Sources */,
+				184FCAC81C89283100878A34 /* OriginalViewController.m in Sources */,
 				183EB7141C83F2CA0053ED64 /* main.m in Sources */,
 				18F011D41C8813BD00FDCA3A /* UtilsHelper.m in Sources */,
+				184FCAD31C89324200878A34 /* MobileData+Original.m in Sources */,
 				183EB75B1C83F9BA0053ED64 /* UIViewController+MMDrawerController.m in Sources */,
+				184FCACC1C892AB500878A34 /* MobileData.m in Sources */,
 				183EB7591C83F9BA0053ED64 /* MMDrawerController.m in Sources */,
 				183EB7581C83F9BA0053ED64 /* MMDrawerBarButtonItem.m in Sources */,
 				18F011E01C8819A500FDCA3A /* BianKuangViewController.m in Sources */,
+				184FCACF1C89304C00878A34 /* DataController.m in Sources */,
 				183EB70F1C83F2CA0053ED64 /* AppDelegate.m in Sources */,
 				183EB7201C83F5B60053ED64 /* CH_BBPos_BlueTooth.m in Sources */,
 			);
@@ -1101,6 +1181,18 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HongFuTong/Vendors/BBpos-SDK",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"-DDEBUG",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongpay.HongFuTong;
 				PRODUCT_NAME = "$(TARGET_NAME)";

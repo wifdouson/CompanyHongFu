@@ -19,6 +19,11 @@
 #import "AppDelegate.h"
 
 #import "UtilsHelper.h"
+#import "FMDBMacro.h"
+
+#import "DataController.h"
+#import "DataController+Original.h"
+
 
 
 #endif /* PrefixHeader_pch */

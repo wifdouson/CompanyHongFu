@@ -19,9 +19,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window.backgroundColor=[UIColor whiteColor];
+     self.window.backgroundColor=[UIColor whiteColor];
+#pragma mark --创建数据库存储路径
+    NSFileManager * fileManager=[NSFileManager defaultManager];
+    if (![fileManager fileExistsAtPath:HOME_FILE]) {
+        [fileManager createDirectoryAtPath:HOME_FILE withIntermediateDirectories:YES attributes:nil error:nil];
+        
+        //跳过icloud备份
+        [self addSkipBackupAttributeToItemAtURL:[NSURL URLWithString:HOME_FILE]];
+        
+    }
+    
+#pragma mark --判断是否启动页
+    DataController * dataController=[[DataController alloc]init];
+    [dataController isOriginalLogin];
+    
 #pragma mark --得到最基础的导航条
     self.baseNV=(UINavigationController *)self.window.rootViewController;
+    
+#pragma  mark --是否是第一次登陆  数据均存在本地数据库中
+    
     
 
     return YES;
@@ -48,5 +65,19 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+//跳过云备份
+- (BOOL)addSkipBackupAttributeToItemAtURL:(NSURL *)URL
+{
+    assert([[NSFileManager defaultManager] fileExistsAtPath: [URL path]]);
+    NSError *error = nil;
+    BOOL success = [URL setResourceValue: [NSNumber numberWithBool: YES]
+                                  forKey: NSURLIsExcludedFromBackupKey error: &error];
+    if(!success){
+        NSLog(@"Error excluding %@ from backup %@", [URL lastPathComponent], error);
+    }
+    return success;
+}
+
 
 @end
