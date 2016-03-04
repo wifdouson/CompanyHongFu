@@ -31,23 +31,10 @@
         
     }
     
-#pragma mark --判断是否启动页
-    DataController * dataController=[[DataController alloc]init];
-    if([dataController isOriginalLogin]){
-        
-        UIStoryboard * mainStoryboard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
-        OriginalViewController * originalVC=[mainStoryboard instantiateViewControllerWithIdentifier:@"OriginalViewController"];
-        self.window.rootViewController=originalVC;
-        
-    }else{
-        
-    }
+
     
 #pragma mark --得到最基础的导航条
     self.baseNV=(UINavigationController *)self.window.rootViewController;
-    
-#pragma  mark --是否是第一次登陆  数据均存在本地数据库中
-    
     
 
     return YES;

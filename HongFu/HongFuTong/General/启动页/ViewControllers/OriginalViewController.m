@@ -16,6 +16,10 @@
 
 @implementation OriginalViewController
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden=YES;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -42,5 +46,13 @@
 
 - (IBAction)push:(id)sender {
     //淡入效果
+    UINavigationController * nv=[self.storyboard instantiateViewControllerWithIdentifier:@"mainNV"];
+    [nv.view.layer addAnimation:[UtilsHelper transitionWithRippleEffect] forKey:nil];
+    //更改数据库配置 将originallogin 
+    DataController * dataController=[[DataController alloc]init];
+    [dataController changeOriginalLoginStatus];
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
 }
 @end

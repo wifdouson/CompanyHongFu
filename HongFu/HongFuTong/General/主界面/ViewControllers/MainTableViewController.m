@@ -7,13 +7,17 @@
 //
 
 #import "MainTableViewController.h"
+#import "OriginalViewController.h"
 
 @interface MainTabBarController ()
 
 @end
 
 @implementation MainTabBarController
-
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden=YES;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -22,6 +26,22 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+#pragma mark --判断是否启动页
+    DataController * dataController=[[DataController alloc]init];
+    if([dataController isOriginalLogin]){
+        
+        UIStoryboard * mainStoryboard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        OriginalViewController * originalVC=[mainStoryboard instantiateViewControllerWithIdentifier:@"OriginalViewController"];
+ 
+        [APPVC presentViewController:originalVC animated:NO completion:nil];
+        
+    }else{
+        
+    }
+    
+
+    
 }
 
 - (void)didReceiveMemoryWarning {

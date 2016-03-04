@@ -97,7 +97,7 @@
         <!--Navigation Controller-->
         <scene sceneID="I0N-Xb-0Be">
             <objects>
-                <navigationController id="q9P-EO-nU2" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="mainNV" id="q9P-EO-nU2" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lgw-nx-6Tx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -131,7 +131,7 @@
         <!--Main Tab Bar Controller-->
         <scene sceneID="DbW-eP-L0Z">
             <objects>
-                <tabBarController storyboardIdentifier="centerID" id="bS7-BW-baz" customClass="MainTabBarController" sceneMemberID="viewController">
+                <tabBarController id="bS7-BW-baz" customClass="MainTabBarController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="6BO-oH-6yW"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="hQu-iX-DXY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>

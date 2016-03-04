@@ -11,6 +11,7 @@
 
 @implementation DataController (Original)
 
+//只显示一次
 - (BOOL)isOriginalLogin{
     if ( [mobileData isExistOriginalLoginStatus]) {
          return [mobileData getOriginalStatus];
@@ -19,5 +20,11 @@
         return [mobileData getOriginalStatus];
     }
 }
-
+- (BOOL)changeOriginalLoginStatus{
+    if ([mobileData isExistOriginalLoginStatus]) {
+        return [mobileData updateOriginalLoginStatus];
+    }
+    DLog(@"不存在数据");
+    return false;
+}
 @end

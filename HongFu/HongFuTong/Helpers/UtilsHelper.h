@@ -29,4 +29,9 @@
 #pragma mark -- ＃b72221   转换成UIColor
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert;
 
+
+#pragma mark --动画效果 水滴效果 (目前只有水滴效果)
++ (CATransition *)transitionWithRippleEffect;
+
+
 @end

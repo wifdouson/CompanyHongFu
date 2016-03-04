@@ -67,6 +67,14 @@
                             blue:((float) b / 255.0f)
                            alpha:1.0f];
 }
-
+#pragma mark --动画效果 水滴效果 (目前只有水滴效果)
++ (CATransition *)transitionWithRippleEffect{
+    CATransition * transition=[CATransition animation];
+    transition.duration=1;
+    transition.timingFunction=[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    transition.type=@"rippleEffect";
+    [transition setSubtype:kCATransitionFromBottom];
+    return transition;
+}
 
 @end

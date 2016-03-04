@@ -81,17 +81,17 @@
     UIStoryboard * mainStoryboard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
     BianKuangViewController * biankuang=[mainStoryboard instantiateViewControllerWithIdentifier:@"leftID"];
     
-    CATransition * transition=[CATransition animation];
-    
-    transition.duration=1;
-    
-    transition.timingFunction=[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-    
-    transition.type=@"rippleEffect";
-//    transition.type=kCATransitionPush;
-    [transition setSubtype:kCATransitionFromBottom];
+//    CATransition * transition=[CATransition animation];
+//    
+//    transition.duration=1;
+//    
+//    transition.timingFunction=[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+//    
+//    transition.type=@"rippleEffect";
+////    transition.type=kCATransitionPush;
+//    [transition setSubtype:kCATransitionFromBottom];
 
-    [APPNV.view.layer addAnimation:transition forKey:nil];
+    [APPNV.view.layer addAnimation:[UtilsHelper transitionWithRippleEffect] forKey:nil];
     [APPNV pushViewController:biankuang animated:YES];
     
 }
