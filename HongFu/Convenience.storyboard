@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -35,7 +36,7 @@
                         <viewControllerLayoutGuide type="bottom" id="37a-GK-RXs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1FT-Up-Lb6">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MPf-Hc-7Le">
@@ -75,14 +76,14 @@
                                     </mask>
                                 </variation>
                             </pageControl>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l64-Ux-Boq">
-                                <rect key="frame" x="-20" y="197" width="387" height="135"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l64-Ux-Boq">
+                                <rect key="frame" x="-20" y="197" width="312" height="34"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NEs-rp-R1n">
-                                        <rect key="frame" x="20" y="20" width="100" height="90"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NEs-rp-R1n">
+                                        <rect key="frame" x="0.0" y="0.0" width="103" height="34"/>
                                         <subviews>
-                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="信用卡还款.png" translatesAutoresizingMaskIntoConstraints="NO" id="v3E-An-iRN">
-                                                <rect key="frame" x="20" y="20" width="50" height="50"/>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="信用卡还款.png" translatesAutoresizingMaskIntoConstraints="NO" id="v3E-An-iRN">
+                                                <rect key="frame" x="0.0" y="0.0" width="33" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="33" id="5om-3H-mUp"/>
                                                     <constraint firstAttribute="height" constant="33" id="oTv-q2-2hf"/>
@@ -100,8 +101,8 @@
                                                     </mask>
                                                 </variation>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="信用卡还款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMa-2z-vw6">
-                                                <rect key="frame" x="28" y="89" width="42" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="信用卡还款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMa-2z-vw6">
+                                                <rect key="frame" x="43" y="10" width="60" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="2wc-F5-q3X"/>
                                                     <constraint firstAttribute="height" constant="30" id="T1x-Mv-0er"/>
@@ -125,11 +126,11 @@
                                         </subviews>
                                         <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="efh-Wa-J1t">
-                                        <rect key="frame" x="133" y="25" width="100" height="90"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="efh-Wa-J1t">
+                                        <rect key="frame" x="103" y="0.0" width="98" height="34"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="话费充值.png" translatesAutoresizingMaskIntoConstraints="NO" id="ueJ-b3-R6M">
-                                                <rect key="frame" x="20" y="20" width="50" height="50"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="话费充值.png" translatesAutoresizingMaskIntoConstraints="NO" id="ueJ-b3-R6M">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="ufX-tS-veG"/>
                                                     <constraint firstAttribute="height" constant="50" id="yFD-Id-eLi"/>
@@ -147,8 +148,8 @@
                                                     </mask>
                                                 </variation>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="话费充值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF9-4l-zvv">
-                                                <rect key="frame" x="28" y="89" width="42" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="话费充值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF9-4l-zvv">
+                                                <rect key="frame" x="30" y="7" width="68" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="rIj-lq-2vv"/>
                                                     <constraint firstAttribute="width" constant="80" id="zIx-Ri-upC"/>
@@ -158,44 +159,44 @@
                                                 <nil key="highlightedColor"/>
                                                 <variation key="default">
                                                     <mask key="constraints">
-                                                        <exclude reference="zIx-Ri-upC"/>
                                                         <exclude reference="rIj-lq-2vv"/>
+                                                        <exclude reference="zIx-Ri-upC"/>
                                                     </mask>
                                                 </variation>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <mask key="constraints">
-                                                        <exclude reference="zIx-Ri-upC"/>
                                                         <include reference="rIj-lq-2vv"/>
+                                                        <exclude reference="zIx-Ri-upC"/>
                                                     </mask>
                                                 </variation>
                                             </label>
                                         </subviews>
                                         <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w3f-MZ-H81">
-                                        <rect key="frame" x="267" y="25" width="100" height="90"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w3f-MZ-H81">
+                                        <rect key="frame" x="201" y="5" width="111" height="24"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="余额.png" translatesAutoresizingMaskIntoConstraints="NO" id="fY6-Hi-0aX">
-                                                <rect key="frame" x="20" y="20" width="50" height="50"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="余额.png" translatesAutoresizingMaskIntoConstraints="NO" id="fY6-Hi-0aX">
+                                                <rect key="frame" x="0.0" y="0.0" width="33" height="24"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="YQl-xi-Rkb"/>
                                                     <constraint firstAttribute="width" constant="50" id="qHb-hd-Psc"/>
                                                 </constraints>
                                                 <variation key="default">
                                                     <mask key="constraints">
-                                                        <exclude reference="qHb-hd-Psc"/>
                                                         <exclude reference="YQl-xi-Rkb"/>
+                                                        <exclude reference="qHb-hd-Psc"/>
                                                     </mask>
                                                 </variation>
                                                 <variation key="heightClass=regular-widthClass=compact">
                                                     <mask key="constraints">
-                                                        <include reference="qHb-hd-Psc"/>
                                                         <include reference="YQl-xi-Rkb"/>
+                                                        <include reference="qHb-hd-Psc"/>
                                                     </mask>
                                                 </variation>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="余额查询" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsf-M4-d4O">
-                                                <rect key="frame" x="28" y="89" width="42" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="余额查询" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsf-M4-d4O">
+                                                <rect key="frame" x="43" y="2" width="68" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="BMK-a0-g7j"/>
                                                     <constraint firstAttribute="height" constant="30" id="qbW-10-SVI"/>
@@ -263,14 +264,14 @@
                                 <exclude reference="gPg-ka-dWz"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="dhk-5A-dze"/>
+                                <exclude reference="ume-eC-AAM"/>
                                 <exclude reference="D6h-ip-TLv"/>
                                 <exclude reference="oag-QT-iEG"/>
                                 <exclude reference="zWl-di-Ktl"/>
-                                <exclude reference="g0V-AP-9HX"/>
                                 <exclude reference="6a3-sS-sju"/>
                                 <exclude reference="bNR-nO-1op"/>
-                                <exclude reference="dhk-5A-dze"/>
-                                <exclude reference="ume-eC-AAM"/>
+                                <exclude reference="g0V-AP-9HX"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -279,14 +280,14 @@
                                 <include reference="gPg-ka-dWz"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="dhk-5A-dze"/>
+                                <include reference="ume-eC-AAM"/>
                                 <include reference="D6h-ip-TLv"/>
                                 <include reference="oag-QT-iEG"/>
                                 <include reference="zWl-di-Ktl"/>
-                                <include reference="g0V-AP-9HX"/>
                                 <include reference="6a3-sS-sju"/>
                                 <include reference="bNR-nO-1op"/>
-                                <include reference="dhk-5A-dze"/>
-                                <include reference="ume-eC-AAM"/>
+                                <include reference="g0V-AP-9HX"/>
                             </mask>
                         </variation>
                     </view>
