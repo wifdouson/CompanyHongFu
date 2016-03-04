@@ -38,7 +38,7 @@
         <scene sceneID="CeF-jU-zBi">
             <objects>
                 <navigationController id="i4p-dZ-T9h" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="理财" id="aaq-ke-jlZ"/>
+                    <tabBarItem key="tabBarItem" title="理财" image="理财显示.png" selectedImage="理财选中.png" id="aaq-ke-jlZ"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="AbstractSizeClassScreen[heightClass=regular-widthClass=compact]"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0mf-d9-uiO">
@@ -54,4 +54,8 @@
             <point key="canvasLocation" x="1668" y="-313.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="理财显示.png" width="24" height="19"/>
+        <image name="理财选中.png" width="24" height="19"/>
+    </resources>
 </document>

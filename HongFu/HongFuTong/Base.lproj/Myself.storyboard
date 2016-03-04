@@ -9,7 +9,7 @@
         <scene sceneID="Dsk-YH-cf6">
             <objects>
                 <navigationController id="uDP-3F-jeH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" id="aex-KK-CoL"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="我的显示.png" selectedImage="我的选中.png" id="aex-KK-CoL"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="AbstractSizeClassScreen[heightClass=regular-widthClass=compact]"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YbG-gI-3B4">
@@ -44,4 +44,8 @@
             <point key="canvasLocation" x="2589" y="1084.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="我的显示.png" width="13" height="19"/>
+        <image name="我的选中.png" width="13" height="19"/>
+    </resources>
 </document>

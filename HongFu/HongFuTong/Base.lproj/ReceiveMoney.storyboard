@@ -10,7 +10,7 @@
         <scene sceneID="yzo-w1-hzH">
             <objects>
                 <navigationController id="cbN-M5-lxc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="收款" id="BA2-g2-XRL"/>
+                    <tabBarItem key="tabBarItem" title="收款" image="收款显示.png" selectedImage="收款选中.png" id="BA2-g2-XRL"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="AbstractSizeClassScreen[heightClass=regular-widthClass=compact]"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TV3-pu-o3u">
@@ -261,6 +261,8 @@
     <resources>
         <image name="传统.png" width="127" height="46"/>
         <image name="导航栏.png" width="1" height="1"/>
+        <image name="收款显示.png" width="21" height="15"/>
+        <image name="收款选中.png" width="21" height="15"/>
         <image name="汉堡标.png" width="22" height="16"/>
         <image name="秒到.png" width="127" height="46"/>
     </resources>
