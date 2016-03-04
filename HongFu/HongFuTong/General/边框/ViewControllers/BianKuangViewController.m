@@ -31,13 +31,24 @@
 @implementation BianKuangViewController
 
 - (void)awakeFromNib{
+    
     [self setLeftMenu];
+//    [self setupHeadImageView];
+    
 }
 
+#pragma mark --调整头像
+- (void)setupHeadImageView{
+    self.touxiang.layer.cornerRadius=30;
+    self.touxiang.layer.borderColor=BLUECOLOR.CGColor;
+    self.touxiang.layer.borderWidth=1;
+    self.touxiang.layer.masksToBounds=YES;
+ 
+}
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    
+    [self setupHeadImageView];
 }
 
 - (void)viewDidLoad {

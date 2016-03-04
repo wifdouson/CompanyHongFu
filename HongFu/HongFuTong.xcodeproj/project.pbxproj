@@ -62,6 +62,7 @@
 		184FCB0B1C89699B00878A34 /* 设置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAFB1C89699B00878A34 /* 设置@3x.png */; };
 		184FCB0C1C89699B00878A34 /* 通知@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAFC1C89699B00878A34 /* 通知@2x.png */; };
 		184FCB0D1C89699B00878A34 /* 通知@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAFD1C89699B00878A34 /* 通知@3x.png */; };
+		184FCB0F1C897A4100878A34 /* 头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCB0E1C897A4100878A34 /* 头像.png */; };
 		18F00FCE1C86B8C800FDCA3A /* +@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA11C86B8C800FDCA3A /* +@2x.png */; };
 		18F00FCF1C86B8C800FDCA3A /* +选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA21C86B8C800FDCA3A /* +选中@2x.png */; };
 		18F00FD01C86B8C800FDCA3A /* .@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA31C86B8C800FDCA3A /* .@2x.png */; };
@@ -238,6 +239,7 @@
 		184FCAFB1C89699B00878A34 /* 设置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@3x.png"; sourceTree = "<group>"; };
 		184FCAFC1C89699B00878A34 /* 通知@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通知@2x.png"; sourceTree = "<group>"; };
 		184FCAFD1C89699B00878A34 /* 通知@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通知@3x.png"; sourceTree = "<group>"; };
+		184FCB0E1C897A4100878A34 /* 头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像.png"; sourceTree = "<group>"; };
 		18E3D5841C83F04900B883F6 /* HongFuTong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HongFuTong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F00FA11C86B8C800FDCA3A /* +@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+@2x.png"; sourceTree = "<group>"; };
 		18F00FA21C86B8C800FDCA3A /* +选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+选中@2x.png"; sourceTree = "<group>"; };
@@ -606,6 +608,7 @@
 		184FCAED1C89699B00878A34 /* 侧栏 */ = {
 			isa = PBXGroup;
 			children = (
+				184FCB0E1C897A4100878A34 /* 头像.png */,
 				184FCAEE1C89699B00878A34 /* 交易记录@2x.png */,
 				184FCAEF1C89699B00878A34 /* 交易记录@3x.png */,
 				184FCAF01C89699B00878A34 /* 实名认证@2x.png */,
@@ -942,6 +945,7 @@
 				184FCB0D1C89699B00878A34 /* 通知@3x.png in Resources */,
 				18F0104B1C86B8D500FDCA3A /* 导航栏@3x.png in Resources */,
 				18F00FF21C86B8C800FDCA3A /* 收款显示@2x.png in Resources */,
+				184FCB0F1C897A4100878A34 /* 头像.png in Resources */,
 				18F00FDE1C86B8C800FDCA3A /* 6@2x.png in Resources */,
 				18F00FF71C86B8C800FDCA3A /* 理财显示@2x.png in Resources */,
 				184FCB031C89699B00878A34 /* 帮助@3x.png in Resources */,

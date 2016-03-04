@@ -20,7 +20,7 @@
 #define DLog(...)
 #endif
 
-
+#define  BLUECOLOR  [UtilsHelper colorWithHexString:@"#2481c2"]
 
 
 #endif /* UtilsMacro_h */
