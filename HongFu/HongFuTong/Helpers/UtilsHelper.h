@@ -26,4 +26,7 @@
 #pragma mark --得到最初vc
 + (UIViewController *)getAppViewController;
 
+#pragma mark -- ＃b72221   转换成UIColor
++ (UIColor *)colorWithHexString:(NSString *)stringToConvert;
+
 @end

@@ -37,29 +37,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FA3-Oc-z8M">
-                                <rect key="frame" x="-20" y="44" width="440" height="309"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FA3-Oc-z8M">
+                                <rect key="frame" x="-20" y="44" width="739" height="191"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nRR-nK-CbJ">
-                                        <rect key="frame" x="-20" y="-20" width="420" height="231"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nRR-nK-CbJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="380" height="191"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Fg-Vh-ieo">
-                                                <rect key="frame" x="20" y="20" width="380" height="191"/>
+                                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Fg-Vh-ieo">
+                                                <rect key="frame" x="0.0" y="0.0" width="380" height="191"/>
                                                 <subviews>
                                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="导航栏.png" translatesAutoresizingMaskIntoConstraints="NO" id="HMY-KT-7CF">
                                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     </imageView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w2b-GB-OJV">
-                                                        <rect key="frame" x="157" y="50" width="82" height="90"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w2b-GB-OJV">
+                                                        <rect key="frame" x="157" y="50" width="248" height="21"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交易余额（元）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyq-pM-6tQ">
-                                                                <rect key="frame" x="20" y="20" width="42" height="21"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="交易余额（元）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyq-pM-6tQ">
+                                                                <rect key="frame" x="0.0" y="0.0" width="119" height="21"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.95436789769999997" green="0.95436789769999997" blue="0.95436789769999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="One-NL-GZh">
-                                                                <rect key="frame" x="20" y="49" width="42" height="21"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="999999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="One-NL-GZh">
+                                                                <rect key="frame" x="129" y="0.0" width="119" height="21"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <color key="textColor" red="0.95436789769999997" green="0.95436789769999997" blue="0.95436789769999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -95,8 +95,7 @@
                                                                 <exclude reference="pkO-l4-qr0"/>
                                                             </mask>
                                                         </variation>
-                                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                                            <rect key="frame" x="9" y="4" width="22" height="22"/>
+                                                        <variation key="heightClass=regular-widthClass=compact">
                                                             <mask key="constraints">
                                                                 <include reference="a0C-NT-nck"/>
                                                                 <include reference="pkO-l4-qr0"/>
@@ -124,12 +123,12 @@
                                                         <exclude reference="MKq-y0-BeN"/>
                                                     </mask>
                                                     <mask key="constraints">
+                                                        <exclude reference="MCj-Ra-epp"/>
+                                                        <exclude reference="Prg-TM-dHe"/>
                                                         <exclude reference="AvJ-hm-pig"/>
                                                         <exclude reference="Xtn-fQ-L6H"/>
                                                         <exclude reference="Ynf-nf-o29"/>
                                                         <exclude reference="tBc-S4-Fdk"/>
-                                                        <exclude reference="MCj-Ra-epp"/>
-                                                        <exclude reference="Prg-TM-dHe"/>
                                                         <exclude reference="EeB-jL-YBh"/>
                                                         <exclude reference="UIf-CN-Zfb"/>
                                                     </mask>
@@ -140,12 +139,12 @@
                                                         <include reference="MKq-y0-BeN"/>
                                                     </mask>
                                                     <mask key="constraints">
+                                                        <include reference="MCj-Ra-epp"/>
+                                                        <include reference="Prg-TM-dHe"/>
                                                         <include reference="AvJ-hm-pig"/>
                                                         <include reference="Xtn-fQ-L6H"/>
                                                         <include reference="Ynf-nf-o29"/>
                                                         <include reference="tBc-S4-Fdk"/>
-                                                        <include reference="MCj-Ra-epp"/>
-                                                        <include reference="Prg-TM-dHe"/>
                                                         <include reference="EeB-jL-YBh"/>
                                                         <include reference="UIf-CN-Zfb"/>
                                                     </mask>
@@ -154,11 +153,11 @@
                                         </subviews>
                                         <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyB-iC-RvV">
-                                        <rect key="frame" x="-20" y="200" width="420" height="70"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HyB-iC-RvV">
+                                        <rect key="frame" x="400" y="0.0" width="25" height="191"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q9q-Sa-ey6">
-                                                <rect key="frame" x="20" y="20" width="380" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q9q-Sa-ey6">
+                                                <rect key="frame" x="0.0" y="0.0" width="25" height="191"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -177,18 +176,18 @@
                                             </mask>
                                         </variation>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="EAI-Uv-djg">
-                                        <rect key="frame" x="86" y="259" width="92" height="30"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="EAI-Uv-djg">
+                                        <rect key="frame" x="445" y="0.0" width="294" height="191"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AK-uA-ZX7">
-                                                <rect key="frame" x="20" y="20" width="46" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AK-uA-ZX7">
+                                                <rect key="frame" x="0.0" y="0.0" width="127" height="191"/>
                                                 <state key="normal" title="秒到交易" backgroundImage="秒到.png"/>
                                                 <connections>
                                                     <action selector="secondReceiveMoney:" destination="CDx-he-c1u" eventType="touchUpInside" id="DpL-d4-ZTB"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2s-2R-v8C">
-                                                <rect key="frame" x="180" y="20" width="46" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2s-2R-v8C">
+                                                <rect key="frame" x="167" y="0.0" width="127" height="191"/>
                                                 <state key="normal" title="传统交易" backgroundImage="传统.png"/>
                                                 <connections>
                                                     <action selector="traditionReceiveMoney:" destination="CDx-he-c1u" eventType="touchUpInside" id="pts-m4-GmO"/>

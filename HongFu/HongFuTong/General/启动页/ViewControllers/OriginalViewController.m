@@ -9,6 +9,8 @@
 #import "OriginalViewController.h"
 
 @interface OriginalViewController ()
+- (IBAction)push:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *pushBtn;
 
 @end
 
@@ -18,8 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
-
+    [self.pushBtn setTitleColor:[UtilsHelper colorWithHexString:@"#b72221"] forState:UIControlStateNormal];
     
     
 }
@@ -39,4 +40,7 @@
 }
 */
 
+- (IBAction)push:(id)sender {
+    //淡入效果
+}
 @end

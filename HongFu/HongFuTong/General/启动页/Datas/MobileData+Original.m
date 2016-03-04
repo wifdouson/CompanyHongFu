@@ -43,13 +43,13 @@
     return NO;
 }
 
-#pragma mark --第一次需要插入 0 数据
+#pragma mark --第一次需要插入 1 数据 表示还没有登陆过启动页
 - (BOOL)insertOriginalLoginStatus{
     
     if ([self.fmDatabase open]) {
         [self.fmDatabase beginTransaction];
         
-        BOOL status=[self.fmDatabase executeUpdate:@"insert into StatusTable (statusType,statusData) values (?,?)",OriginalLogin,StatusFalse];
+        BOOL status=[self.fmDatabase executeUpdate:@"insert into StatusTable (statusType,statusData) values (?,?)",OriginalLogin,StatusTrue];
         if (status) {
              DLog(@"fmdb success");
         }else{

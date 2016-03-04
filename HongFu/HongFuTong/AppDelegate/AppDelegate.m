@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OriginalViewController.h"
 
 
 
@@ -32,7 +33,15 @@
     
 #pragma mark --判断是否启动页
     DataController * dataController=[[DataController alloc]init];
-    [dataController isOriginalLogin];
+    if([dataController isOriginalLogin]){
+        
+        UIStoryboard * mainStoryboard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        OriginalViewController * originalVC=[mainStoryboard instantiateViewControllerWithIdentifier:@"OriginalViewController"];
+        self.window.rootViewController=originalVC;
+        
+    }else{
+        
+    }
     
 #pragma mark --得到最基础的导航条
     self.baseNV=(UINavigationController *)self.window.rootViewController;

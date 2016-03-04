@@ -13,11 +13,11 @@
 
 - (BOOL)isOriginalLogin{
     if ( [mobileData isExistOriginalLoginStatus]) {
-        [mobileData getOriginalStatus];
+         return [mobileData getOriginalStatus];
     }else{
         [mobileData insertOriginalLoginStatus];
+        return [mobileData getOriginalStatus];
     }
-    return YES;
 }
 
 @end

@@ -45,6 +45,7 @@
 		184FCACF1C89304C00878A34 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCACE1C89304C00878A34 /* DataController.m */; };
 		184FCAD31C89324200878A34 /* MobileData+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCAD21C89324200878A34 /* MobileData+Original.m */; };
 		184FCAD61C89325900878A34 /* DataController+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCAD51C89325900878A34 /* DataController+Original.m */; };
+		184FCAD91C8947F500878A34 /* 冷启动页面.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAD81C8947F500878A34 /* 冷启动页面.png */; };
 		18F00FCE1C86B8C800FDCA3A /* +@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA11C86B8C800FDCA3A /* +@2x.png */; };
 		18F00FCF1C86B8C800FDCA3A /* +选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA21C86B8C800FDCA3A /* +选中@2x.png */; };
 		18F00FD01C86B8C800FDCA3A /* .@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA31C86B8C800FDCA3A /* .@2x.png */; };
@@ -204,6 +205,7 @@
 		184FCAD41C89325900878A34 /* DataController+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DataController+Original.h"; sourceTree = "<group>"; };
 		184FCAD51C89325900878A34 /* DataController+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DataController+Original.m"; sourceTree = "<group>"; };
 		184FCAD71C89357A00878A34 /* FMDBMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBMacro.h; sourceTree = "<group>"; };
+		184FCAD81C8947F500878A34 /* 冷启动页面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冷启动页面.png"; sourceTree = "<group>"; };
 		18E3D5841C83F04900B883F6 /* HongFuTong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HongFuTong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F00FA11C86B8C800FDCA3A /* +@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+@2x.png"; sourceTree = "<group>"; };
 		18F00FA21C86B8C800FDCA3A /* +选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+选中@2x.png"; sourceTree = "<group>"; };
@@ -446,6 +448,7 @@
 		183EB70A1C83F2CA0053ED64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				184FCAD81C8947F500878A34 /* 冷启动页面.png */,
 				18F00FFB1C86B8D500FDCA3A /* @3X */,
 				18F00F9F1C86B8C800FDCA3A /* @2X */,
 			);
@@ -957,6 +960,7 @@
 				18F0103D1C86B8D500FDCA3A /* 7选中@3x.png in Resources */,
 				18F0104D1C86B8D500FDCA3A /* 我的选中@3x.png in Resources */,
 				18F010621C86DA1300FDCA3A /* ReceiveMoney.storyboard in Resources */,
+				184FCAD91C8947F500878A34 /* 冷启动页面.png in Resources */,
 				18F0102D1C86B8D500FDCA3A /* .选中@3x.png in Resources */,
 				18F010351C86B8D500FDCA3A /* 3选中@3x.png in Resources */,
 				18F010321C86B8D500FDCA3A /* 2@3x.png in Resources */,
