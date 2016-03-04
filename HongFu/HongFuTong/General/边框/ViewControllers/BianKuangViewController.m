@@ -9,6 +9,22 @@
 #import "BianKuangViewController.h"
 
 @interface BianKuangViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *touxiang;
+@property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UILabel *phoneNumber;
+@property (weak, nonatomic) IBOutlet UIImageView *shimingrenzheng;
+@property (weak, nonatomic) IBOutlet UIImageView *jiaoyijilu;
+@property (weak, nonatomic) IBOutlet UIImageView *tixianjilu;
+@property (weak, nonatomic) IBOutlet UIImageView *shebeiguanli;
+
+@property (weak, nonatomic) IBOutlet UIImageView *tongzhi;
+@property (weak, nonatomic) IBOutlet UIImageView *bangzhu;
+
+@property (weak, nonatomic) IBOutlet UIImageView *setting;
+@property (weak, nonatomic) IBOutlet UIImageView *huancun;
+
+
+
 
 @end
 

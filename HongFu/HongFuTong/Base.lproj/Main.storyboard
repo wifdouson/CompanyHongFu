@@ -124,6 +124,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7d4-zL-vpZ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="160" y="90" width="60" height="60"/>
+                                </variation>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="30" verticalHuggingPriority="251" text="张如花" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWz-xG-O0x">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -225,15 +231,6 @@
                                     <rect key="frame" x="220" y="395" width="50" height="50"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="帮助" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlB-yF-vh3">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="220" y="452" width="63" height="21"/>
-                                </variation>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="设置.png" translatesAutoresizingMaskIntoConstraints="NO" id="wT5-oT-iQD">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -264,16 +261,20 @@
                                     <rect key="frame" x="217" y="549" width="68" height="21"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7d4-zL-vpZ">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="帮助" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlB-yF-vh3">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="160" y="90" width="60" height="60"/>
+                                    <rect key="frame" x="217" y="452" width="63" height="21"/>
                                 </variation>
-                            </imageView>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="7d4-zL-vpZ"/>
                                 <exclude reference="rWz-xG-O0x"/>
                                 <exclude reference="DJb-Y0-oSl"/>
                                 <exclude reference="aVY-5K-SHG"/>
@@ -287,16 +288,16 @@
                                 <exclude reference="Qb5-Fy-c3G"/>
                                 <exclude reference="zyp-Gq-mog"/>
                                 <exclude reference="0gN-jQ-SMw"/>
-                                <exclude reference="GlB-yF-vh3"/>
                                 <exclude reference="wT5-oT-iQD"/>
                                 <exclude reference="hot-Kw-SNK"/>
                                 <exclude reference="zfF-hE-cfq"/>
                                 <exclude reference="iGZ-TB-Iwh"/>
-                                <exclude reference="7d4-zL-vpZ"/>
+                                <exclude reference="GlB-yF-vh3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
+                                <include reference="7d4-zL-vpZ"/>
                                 <include reference="rWz-xG-O0x"/>
                                 <include reference="DJb-Y0-oSl"/>
                                 <include reference="aVY-5K-SHG"/>
@@ -310,15 +311,27 @@
                                 <include reference="Qb5-Fy-c3G"/>
                                 <include reference="zyp-Gq-mog"/>
                                 <include reference="0gN-jQ-SMw"/>
-                                <include reference="GlB-yF-vh3"/>
                                 <include reference="wT5-oT-iQD"/>
                                 <include reference="hot-Kw-SNK"/>
                                 <include reference="zfF-hE-cfq"/>
                                 <include reference="iGZ-TB-Iwh"/>
-                                <include reference="7d4-zL-vpZ"/>
+                                <include reference="GlB-yF-vh3"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="bangzhu" destination="0gN-jQ-SMw" id="dOu-Rp-Ic6"/>
+                        <outlet property="huancun" destination="zfF-hE-cfq" id="mo6-Zs-JS3"/>
+                        <outlet property="jiaoyijilu" destination="3PS-sB-C6Y" id="MJC-Bw-HC6"/>
+                        <outlet property="name" destination="rWz-xG-O0x" id="FQL-lk-p4g"/>
+                        <outlet property="phoneNumber" destination="DJb-Y0-oSl" id="XzM-Pu-lAB"/>
+                        <outlet property="setting" destination="wT5-oT-iQD" id="KqP-s9-wvt"/>
+                        <outlet property="shebeiguanli" destination="IGZ-fH-ZZa" id="xFo-eL-KT1"/>
+                        <outlet property="shimingrenzheng" destination="aVY-5K-SHG" id="pIu-Xx-Nly"/>
+                        <outlet property="tixianjilu" destination="Tpf-zv-x9e" id="OXi-mk-vsy"/>
+                        <outlet property="tongzhi" destination="Qb5-Fy-c3G" id="lfa-Ue-TeI"/>
+                        <outlet property="touxiang" destination="7d4-zL-vpZ" id="flM-2j-hBV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jqt-3p-nJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
