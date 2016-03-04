@@ -46,6 +46,22 @@
 		184FCAD31C89324200878A34 /* MobileData+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCAD21C89324200878A34 /* MobileData+Original.m */; };
 		184FCAD61C89325900878A34 /* DataController+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FCAD51C89325900878A34 /* DataController+Original.m */; };
 		184FCAD91C8947F500878A34 /* 冷启动页面.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAD81C8947F500878A34 /* 冷启动页面.png */; };
+		184FCAFE1C89699B00878A34 /* 交易记录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAEE1C89699B00878A34 /* 交易记录@2x.png */; };
+		184FCAFF1C89699B00878A34 /* 交易记录@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAEF1C89699B00878A34 /* 交易记录@3x.png */; };
+		184FCB001C89699B00878A34 /* 实名认证@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF01C89699B00878A34 /* 实名认证@2x.png */; };
+		184FCB011C89699B00878A34 /* 实名认证@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF11C89699B00878A34 /* 实名认证@3x.png */; };
+		184FCB021C89699B00878A34 /* 帮助@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF21C89699B00878A34 /* 帮助@2x.png */; };
+		184FCB031C89699B00878A34 /* 帮助@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF31C89699B00878A34 /* 帮助@3x.png */; };
+		184FCB041C89699B00878A34 /* 提现记录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF41C89699B00878A34 /* 提现记录@2x.png */; };
+		184FCB051C89699B00878A34 /* 提现记录@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF51C89699B00878A34 /* 提现记录@3x.png */; };
+		184FCB061C89699B00878A34 /* 清除缓存@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF61C89699B00878A34 /* 清除缓存@2x.png */; };
+		184FCB071C89699B00878A34 /* 清除缓存@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF71C89699B00878A34 /* 清除缓存@3x.png */; };
+		184FCB081C89699B00878A34 /* 设备管理@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF81C89699B00878A34 /* 设备管理@2x.png */; };
+		184FCB091C89699B00878A34 /* 设备管理@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAF91C89699B00878A34 /* 设备管理@3x.png */; };
+		184FCB0A1C89699B00878A34 /* 设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAFA1C89699B00878A34 /* 设置@2x.png */; };
+		184FCB0B1C89699B00878A34 /* 设置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAFB1C89699B00878A34 /* 设置@3x.png */; };
+		184FCB0C1C89699B00878A34 /* 通知@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAFC1C89699B00878A34 /* 通知@2x.png */; };
+		184FCB0D1C89699B00878A34 /* 通知@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FCAFD1C89699B00878A34 /* 通知@3x.png */; };
 		18F00FCE1C86B8C800FDCA3A /* +@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA11C86B8C800FDCA3A /* +@2x.png */; };
 		18F00FCF1C86B8C800FDCA3A /* +选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA21C86B8C800FDCA3A /* +选中@2x.png */; };
 		18F00FD01C86B8C800FDCA3A /* .@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F00FA31C86B8C800FDCA3A /* .@2x.png */; };
@@ -206,6 +222,22 @@
 		184FCAD51C89325900878A34 /* DataController+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DataController+Original.m"; sourceTree = "<group>"; };
 		184FCAD71C89357A00878A34 /* FMDBMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBMacro.h; sourceTree = "<group>"; };
 		184FCAD81C8947F500878A34 /* 冷启动页面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冷启动页面.png"; sourceTree = "<group>"; };
+		184FCAEE1C89699B00878A34 /* 交易记录@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交易记录@2x.png"; sourceTree = "<group>"; };
+		184FCAEF1C89699B00878A34 /* 交易记录@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交易记录@3x.png"; sourceTree = "<group>"; };
+		184FCAF01C89699B00878A34 /* 实名认证@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "实名认证@2x.png"; sourceTree = "<group>"; };
+		184FCAF11C89699B00878A34 /* 实名认证@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "实名认证@3x.png"; sourceTree = "<group>"; };
+		184FCAF21C89699B00878A34 /* 帮助@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "帮助@2x.png"; sourceTree = "<group>"; };
+		184FCAF31C89699B00878A34 /* 帮助@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "帮助@3x.png"; sourceTree = "<group>"; };
+		184FCAF41C89699B00878A34 /* 提现记录@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提现记录@2x.png"; sourceTree = "<group>"; };
+		184FCAF51C89699B00878A34 /* 提现记录@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提现记录@3x.png"; sourceTree = "<group>"; };
+		184FCAF61C89699B00878A34 /* 清除缓存@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清除缓存@2x.png"; sourceTree = "<group>"; };
+		184FCAF71C89699B00878A34 /* 清除缓存@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清除缓存@3x.png"; sourceTree = "<group>"; };
+		184FCAF81C89699B00878A34 /* 设备管理@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设备管理@2x.png"; sourceTree = "<group>"; };
+		184FCAF91C89699B00878A34 /* 设备管理@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设备管理@3x.png"; sourceTree = "<group>"; };
+		184FCAFA1C89699B00878A34 /* 设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@2x.png"; sourceTree = "<group>"; };
+		184FCAFB1C89699B00878A34 /* 设置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@3x.png"; sourceTree = "<group>"; };
+		184FCAFC1C89699B00878A34 /* 通知@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通知@2x.png"; sourceTree = "<group>"; };
+		184FCAFD1C89699B00878A34 /* 通知@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通知@3x.png"; sourceTree = "<group>"; };
 		18E3D5841C83F04900B883F6 /* HongFuTong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HongFuTong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F00FA11C86B8C800FDCA3A /* +@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+@2x.png"; sourceTree = "<group>"; };
 		18F00FA21C86B8C800FDCA3A /* +选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+选中@2x.png"; sourceTree = "<group>"; };
@@ -448,6 +480,7 @@
 		183EB70A1C83F2CA0053ED64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				184FCAED1C89699B00878A34 /* 侧栏 */,
 				184FCAD81C8947F500878A34 /* 冷启动页面.png */,
 				18F00FFB1C86B8D500FDCA3A /* @3X */,
 				18F00F9F1C86B8C800FDCA3A /* @2X */,
@@ -568,6 +601,29 @@
 				184FCAD51C89325900878A34 /* DataController+Original.m */,
 			);
 			path = Datas;
+			sourceTree = "<group>";
+		};
+		184FCAED1C89699B00878A34 /* 侧栏 */ = {
+			isa = PBXGroup;
+			children = (
+				184FCAEE1C89699B00878A34 /* 交易记录@2x.png */,
+				184FCAEF1C89699B00878A34 /* 交易记录@3x.png */,
+				184FCAF01C89699B00878A34 /* 实名认证@2x.png */,
+				184FCAF11C89699B00878A34 /* 实名认证@3x.png */,
+				184FCAF21C89699B00878A34 /* 帮助@2x.png */,
+				184FCAF31C89699B00878A34 /* 帮助@3x.png */,
+				184FCAF41C89699B00878A34 /* 提现记录@2x.png */,
+				184FCAF51C89699B00878A34 /* 提现记录@3x.png */,
+				184FCAF61C89699B00878A34 /* 清除缓存@2x.png */,
+				184FCAF71C89699B00878A34 /* 清除缓存@3x.png */,
+				184FCAF81C89699B00878A34 /* 设备管理@2x.png */,
+				184FCAF91C89699B00878A34 /* 设备管理@3x.png */,
+				184FCAFA1C89699B00878A34 /* 设置@2x.png */,
+				184FCAFB1C89699B00878A34 /* 设置@3x.png */,
+				184FCAFC1C89699B00878A34 /* 通知@2x.png */,
+				184FCAFD1C89699B00878A34 /* 通知@3x.png */,
+			);
+			path = "侧栏";
 			sourceTree = "<group>";
 		};
 		18E3D57B1C83F04900B883F6 = {
@@ -883,10 +939,12 @@
 				18F010371C86B8D500FDCA3A /* 4选中@3x.png in Resources */,
 				18F00FE41C86B8C800FDCA3A /* 9@2x.png in Resources */,
 				18F00FF61C86B8C800FDCA3A /* 状态栏@2x.png in Resources */,
+				184FCB0D1C89699B00878A34 /* 通知@3x.png in Resources */,
 				18F0104B1C86B8D500FDCA3A /* 导航栏@3x.png in Resources */,
 				18F00FF21C86B8C800FDCA3A /* 收款显示@2x.png in Resources */,
 				18F00FDE1C86B8C800FDCA3A /* 6@2x.png in Resources */,
 				18F00FF71C86B8C800FDCA3A /* 理财显示@2x.png in Resources */,
+				184FCB031C89699B00878A34 /* 帮助@3x.png in Resources */,
 				18F00FEB1C86B8C800FDCA3A /* 确认选中@2x.png in Resources */,
 				18F0105F1C86D1F300FDCA3A /* Info.plist in Resources */,
 				18F00FF11C86B8C800FDCA3A /* 我的选中@2x.png in Resources */,
@@ -898,7 +956,9 @@
 				18F0103E1C86B8D500FDCA3A /* 8@3x.png in Resources */,
 				18F0104A1C86B8D500FDCA3A /* 便民选中@3x.png in Resources */,
 				18F00FE51C86B8C800FDCA3A /* 9选中@2x.png in Resources */,
+				184FCB011C89699B00878A34 /* 实名认证@3x.png in Resources */,
 				18F010441C86B8D500FDCA3A /* 清除-选中@3x.png in Resources */,
+				184FCB071C89699B00878A34 /* 清除缓存@3x.png in Resources */,
 				18F00FEE1C86B8C800FDCA3A /* 便民选中@2x.png in Resources */,
 				18F00FD91C86B8C800FDCA3A /* 3选中@2x.png in Resources */,
 				18F00FD41C86B8C800FDCA3A /* 1@2x.png in Resources */,
@@ -906,6 +966,7 @@
 				18F010641C86DA4700FDCA3A /* Financing.storyboard in Resources */,
 				18F00FDB1C86B8C800FDCA3A /* 4选中@2x.png in Resources */,
 				18F010431C86B8D500FDCA3A /* 删除选中@3x.png in Resources */,
+				184FCB001C89699B00878A34 /* 实名认证@2x.png in Resources */,
 				18F0102B1C86B8D500FDCA3A /* +选中@3x.png in Resources */,
 				18F010521C86B8D500FDCA3A /* 状态@3x.png in Resources */,
 				183EB7121C83F2CA0053ED64 /* Main.storyboard in Resources */,
@@ -924,6 +985,7 @@
 				18F0102C1C86B8D500FDCA3A /* .@3x.png in Resources */,
 				18F00FD61C86B8C800FDCA3A /* 2@2x.png in Resources */,
 				18F0103F1C86B8D500FDCA3A /* 8选中@3x.png in Resources */,
+				184FCB0A1C89699B00878A34 /* 设置@2x.png in Resources */,
 				18F010391C86B8D500FDCA3A /* 5选中@3x.png in Resources */,
 				18F010421C86B8D500FDCA3A /* 删除@3x.png in Resources */,
 				18F010511C86B8D500FDCA3A /* 汉堡标@3x.png in Resources */,
@@ -942,9 +1004,11 @@
 				18F00FDF1C86B8C800FDCA3A /* 6选中@2x.png in Resources */,
 				18F0104E1C86B8D500FDCA3A /* 收款显示@3x.png in Resources */,
 				18F00FD11C86B8C800FDCA3A /* .选中@2x.png in Resources */,
+				184FCB081C89699B00878A34 /* 设备管理@2x.png in Resources */,
 				18F00FEF1C86B8C800FDCA3A /* 导航栏@2x.png in Resources */,
 				18F010481C86B8D500FDCA3A /* 传统@3x.png in Resources */,
 				18F00FCE1C86B8C800FDCA3A /* +@2x.png in Resources */,
+				184FCAFF1C89699B00878A34 /* 交易记录@3x.png in Resources */,
 				18F00FD01C86B8C800FDCA3A /* .@2x.png in Resources */,
 				18F00FF31C86B8C800FDCA3A /* 收款选中@2x.png in Resources */,
 				183EB7101C83F2CA0053ED64 /* Assets.xcassets in Resources */,
@@ -954,13 +1018,18 @@
 				18F00FED1C86B8C800FDCA3A /* 便民显示@2x.png in Resources */,
 				18F010691C86DA8900FDCA3A /* Myself.storyboard in Resources */,
 				18F010411C86B8D500FDCA3A /* 9选中@3x.png in Resources */,
+				184FCB061C89699B00878A34 /* 清除缓存@2x.png in Resources */,
 				18F010311C86B8D500FDCA3A /* 1选中@3x.png in Resources */,
 				18F00FE81C86B8C800FDCA3A /* 清除-选中@2x.png in Resources */,
 				18F010301C86B8D500FDCA3A /* 1@3x.png in Resources */,
+				184FCB0C1C89699B00878A34 /* 通知@2x.png in Resources */,
 				18F0103D1C86B8D500FDCA3A /* 7选中@3x.png in Resources */,
 				18F0104D1C86B8D500FDCA3A /* 我的选中@3x.png in Resources */,
+				184FCB041C89699B00878A34 /* 提现记录@2x.png in Resources */,
 				18F010621C86DA1300FDCA3A /* ReceiveMoney.storyboard in Resources */,
+				184FCB021C89699B00878A34 /* 帮助@2x.png in Resources */,
 				184FCAD91C8947F500878A34 /* 冷启动页面.png in Resources */,
+				184FCB091C89699B00878A34 /* 设备管理@3x.png in Resources */,
 				18F0102D1C86B8D500FDCA3A /* .选中@3x.png in Resources */,
 				18F010351C86B8D500FDCA3A /* 3选中@3x.png in Resources */,
 				18F010321C86B8D500FDCA3A /* 2@3x.png in Resources */,
@@ -970,8 +1039,11 @@
 				18F00FEA1C86B8C800FDCA3A /* 确认@2x.png in Resources */,
 				18F00FDA1C86B8C800FDCA3A /* 4@2x.png in Resources */,
 				18F00FE21C86B8C800FDCA3A /* 8@2x.png in Resources */,
+				184FCAFE1C89699B00878A34 /* 交易记录@2x.png in Resources */,
 				18F00FFA1C86B8C800FDCA3A /* 输入框@2x.png in Resources */,
+				184FCB0B1C89699B00878A34 /* 设置@3x.png in Resources */,
 				18F010491C86B8D500FDCA3A /* 便民显示@3x.png in Resources */,
+				184FCB051C89699B00878A34 /* 提现记录@3x.png in Resources */,
 				183EB7111C83F2CA0053ED64 /* LaunchScreen.storyboard in Resources */,
 				18F010501C86B8D500FDCA3A /* 标签栏@3x.png in Resources */,
 				18F010341C86B8D500FDCA3A /* 3@3x.png in Resources */,

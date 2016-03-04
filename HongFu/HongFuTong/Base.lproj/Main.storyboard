@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -15,6 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="MtT-kO-Ic3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="K3c-ij-Ja2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="冷启动页面.png" translatesAutoresizingMaskIntoConstraints="NO" id="0v3-Ps-JaD">
@@ -61,13 +63,13 @@
                                 <exclude reference="FqD-de-WU1"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="5NG-5q-rPo"/>
+                                <exclude reference="oiE-1F-zId"/>
+                                <exclude reference="1di-an-aNL"/>
+                                <exclude reference="vlG-Tg-M7l"/>
                                 <exclude reference="eUg-5x-kAV"/>
                                 <exclude reference="iXx-be-Ww2"/>
                                 <exclude reference="rso-Ez-7HE"/>
-                                <exclude reference="1di-an-aNL"/>
-                                <exclude reference="vlG-Tg-M7l"/>
-                                <exclude reference="5NG-5q-rPo"/>
-                                <exclude reference="oiE-1F-zId"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -76,13 +78,13 @@
                                 <include reference="FqD-de-WU1"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="5NG-5q-rPo"/>
+                                <include reference="oiE-1F-zId"/>
+                                <exclude reference="1di-an-aNL"/>
+                                <include reference="vlG-Tg-M7l"/>
                                 <include reference="eUg-5x-kAV"/>
                                 <include reference="iXx-be-Ww2"/>
                                 <include reference="rso-Ez-7HE"/>
-                                <exclude reference="1di-an-aNL"/>
-                                <include reference="vlG-Tg-M7l"/>
-                                <include reference="5NG-5q-rPo"/>
-                                <include reference="oiE-1F-zId"/>
                             </mask>
                         </variation>
                     </view>
@@ -121,12 +123,206 @@
                     <view key="view" contentMode="scaleToFill" id="KPG-x0-LKg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.61653241140000004" green="1" blue="0.2470442165" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="30" verticalHuggingPriority="251" text="张如花" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWz-xG-O0x">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="114" y="158" width="152" height="37"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13811111111" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJb-Y0-oSl">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.18615845959595956" green="0.18615845959595956" blue="0.18615845959595956" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="118" y="194" width="152" height="29"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="实名认证.png" translatesAutoresizingMaskIntoConstraints="NO" id="aVY-5K-SHG">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="119" y="231" width="51" height="36"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="实名认证" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlS-mD-Hqp">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="275" width="81" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="交易记录.png" translatesAutoresizingMaskIntoConstraints="NO" id="3PS-sB-C6Y">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="228" y="226" width="35" height="45"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交易记录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egz-eK-z1y">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="275" width="79" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="提现记录.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tpf-zv-x9e">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="119" y="311" width="51" height="43"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提现记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1H-Ua-FVd">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="359" width="81" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="设备管理.png" translatesAutoresizingMaskIntoConstraints="NO" id="IGZ-fH-ZZa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="220" y="310" width="51" height="45"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设备管理" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaM-7P-Mx4">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="359" width="79" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="通知.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qb5-Fy-c3G">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="121" y="397" width="42" height="46"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通知" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyp-Gq-mog">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="452" width="63" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="帮助.png" translatesAutoresizingMaskIntoConstraints="NO" id="0gN-jQ-SMw">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="220" y="395" width="50" height="50"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="帮助" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlB-yF-vh3">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="220" y="452" width="63" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="设置.png" translatesAutoresizingMaskIntoConstraints="NO" id="wT5-oT-iQD">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="121" y="495" width="49" height="49"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hot-Kw-SNK">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="111" y="549" width="63" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="清除缓存.png" translatesAutoresizingMaskIntoConstraints="NO" id="zfF-hE-cfq">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="227" y="499" width="36" height="42"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="清除缓存" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGZ-TB-Iwh">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="217" y="549" width="68" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7d4-zL-vpZ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="160" y="90" width="60" height="60"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="rWz-xG-O0x"/>
+                                <exclude reference="DJb-Y0-oSl"/>
+                                <exclude reference="aVY-5K-SHG"/>
+                                <exclude reference="GlS-mD-Hqp"/>
+                                <exclude reference="3PS-sB-C6Y"/>
+                                <exclude reference="egz-eK-z1y"/>
+                                <exclude reference="Tpf-zv-x9e"/>
+                                <exclude reference="b1H-Ua-FVd"/>
+                                <exclude reference="IGZ-fH-ZZa"/>
+                                <exclude reference="AaM-7P-Mx4"/>
+                                <exclude reference="Qb5-Fy-c3G"/>
+                                <exclude reference="zyp-Gq-mog"/>
+                                <exclude reference="0gN-jQ-SMw"/>
+                                <exclude reference="GlB-yF-vh3"/>
+                                <exclude reference="wT5-oT-iQD"/>
+                                <exclude reference="hot-Kw-SNK"/>
+                                <exclude reference="zfF-hE-cfq"/>
+                                <exclude reference="iGZ-TB-Iwh"/>
+                                <exclude reference="7d4-zL-vpZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="rWz-xG-O0x"/>
+                                <include reference="DJb-Y0-oSl"/>
+                                <include reference="aVY-5K-SHG"/>
+                                <include reference="GlS-mD-Hqp"/>
+                                <include reference="3PS-sB-C6Y"/>
+                                <include reference="egz-eK-z1y"/>
+                                <include reference="Tpf-zv-x9e"/>
+                                <include reference="b1H-Ua-FVd"/>
+                                <include reference="IGZ-fH-ZZa"/>
+                                <include reference="AaM-7P-Mx4"/>
+                                <include reference="Qb5-Fy-c3G"/>
+                                <include reference="zyp-Gq-mog"/>
+                                <include reference="0gN-jQ-SMw"/>
+                                <include reference="GlB-yF-vh3"/>
+                                <include reference="wT5-oT-iQD"/>
+                                <include reference="hot-Kw-SNK"/>
+                                <include reference="zfF-hE-cfq"/>
+                                <include reference="iGZ-TB-Iwh"/>
+                                <include reference="7d4-zL-vpZ"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jqt-3p-nJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-478" y="499"/>
+            <point key="canvasLocation" x="-616.5" y="449.25"/>
         </scene>
         <!--Main Tab Bar Controller-->
         <scene sceneID="DbW-eP-L0Z">
@@ -191,6 +387,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="交易记录.png" width="23" height="29"/>
         <image name="冷启动页面.png" width="1242" height="2208"/>
+        <image name="实名认证.png" width="34" height="23"/>
+        <image name="帮助.png" width="33" height="33"/>
+        <image name="提现记录.png" width="33" height="28"/>
+        <image name="清除缓存.png" width="24" height="28"/>
+        <image name="设备管理.png" width="34" height="29"/>
+        <image name="设置.png" width="32" height="32"/>
+        <image name="通知.png" width="28" height="30"/>
     </resources>
 </document>
